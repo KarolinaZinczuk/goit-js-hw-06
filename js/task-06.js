@@ -21,8 +21,8 @@ const validClass = (add, remove) => {
 
 const blur = (event) => {
 const length = event.currentTarget.value.length;
-if (length === inputLength) {
-    return validClass ("valid", "invalid");
+if (length == inputLength) {
+    return validClass("valid", "invalid");
 } else {
     return validClass("invalid", "valid");
 }};
